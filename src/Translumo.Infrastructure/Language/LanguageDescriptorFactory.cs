@@ -41,6 +41,12 @@ namespace Translumo.Infrastructure.Language
                     SupportedNamedBlocks = new[] { "IsHangulJamo", "IsHangulSyllables" }, UseEndPunctuation = false,
                     UseWordTokenizer = true, UseSpaceRemover = false, Asian = true
                 },
+                new LanguageDescriptor()
+                {
+                    Language = Languages.Korean, Code = "de-DE", EasyOcrCode = "de", EasyOcrModel = "deutsch_g2",
+                    TesseractCode = "deu", IsoCode = "de", TextScorePredictorModel = "deu",
+                    SupportedNamedBlocks = new[] { "IsCyrillic" }, UseEndPunctuation = true, UseWordTokenizer = false, UseSpaceRemover = false
+                },
                 new LanguageDescriptor() { Language = Languages.Italian, Code = "it-IT", IsoCode = "it", TranslationOnly = true },
                 new LanguageDescriptor() { Language = Languages.French, Code = "fr-FR", IsoCode = "fr", TranslationOnly = true },
                 new LanguageDescriptor() { Language = Languages.German, Code = "de-DE", IsoCode = "de", TranslationOnly = true },
