@@ -8,6 +8,7 @@ namespace Translumo.Infrastructure.Language
         Chinese = 2,
         Japanese = 3,
         Korean = 4,
+        Deutsch = 5,
 
         //Translation only
         Italian = 5,
